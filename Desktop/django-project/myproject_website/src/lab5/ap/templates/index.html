@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}
+List of tasks
+{% endblock title %}
+
+{% block content %}
+<form class="add-new-task" action="{% url 'ap:create_task' %}" method="POST" xmlns="http://www.w3.org/1999/html">
+    {% csrf_token %}
+    <input class="new-task-input" type="text" name="title" placeholder="Type task title here...">
+    <button class="new-task-button" type="submit">Add Task</button>
+</form>
+<ul class="tasks">
+{% for task in tasks %}
+<li>
+    <span class="task-title">{{task.title}}</span>
+    <input {% if task.completed %} checked {% endif %} type="checkbox" class="task-checkbox" id="task-checkbox-{{task.id}}" onclick="checkTask({{task.id}})">
+    <a class="edit-task"><button class="edit-task">Edit</button></a>
+    <a class="delete-task" href="{% url 'ap:delete_task' task.id %}"><button class="delete-task">Delete</button></a>
+
+</li>
+{% endfor %}
+</ul>
+{% endblock content %}
+
+
+{% block script %}
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    function checkTask(task_id){
+        let checkbox = document.getElementById(`task-checkbox-${task_id}`)
+        axios.get('/check_task/' + task_id)
+        .then(res => {
+            console.log(res)
+            checkbox.checked = res.data.completed
+        })
+        .catch(err => {
+            console.log('error occured')
+        })
+    }
+</script>
+{% endblock script %}
