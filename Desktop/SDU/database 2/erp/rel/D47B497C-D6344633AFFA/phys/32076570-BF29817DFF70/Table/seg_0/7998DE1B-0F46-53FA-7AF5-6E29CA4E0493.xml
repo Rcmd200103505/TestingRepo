@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STUDENTS" directorySegmentName="seg_0" id="7998DE1B-0F46-53FA-7AF5-6E29CA4E0493">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-21 03:34:16 UTC</createdTime>
+<ownerDesignName>erp</ownerDesignName>
+<schemaObject>0D6847CF-3A38-CC5F-02CE-2CC996FEA1A5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7272B3EB-D579-04F8-9413-806EFD02DC0C</segment>
+<tableSpace>99191DD2-6CEF-EA13-E1E7-F9158218C9DF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STUDENT_NAME" id="68CFEAF4-3513-BE9E-4AA1-6617AD167368">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-21 03:34:16 UTC</createdTime>
+<ownerDesignName>erp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STUDENT_SURNAME" id="D0EDB75E-660D-A3BF-D73E-3219F7E497EB">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-21 03:34:16 UTC</createdTime>
+<ownerDesignName>erp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

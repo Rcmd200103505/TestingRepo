@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7998DE1B-0F46-53FA-7AF5-6E29CA4E0493" schemaObject="0D6847CF-3A38-CC5F-02CE-2CC996FEA1A5" name="STUDENTS">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>STUDENTS</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-21 03:34:16 UTC</createdTime>
+<ownerDesignName>erp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_NAME" id="68CFEAF4-3513-BE9E-4AA1-6617AD167368">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>STUDENT_NAME</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-21 03:34:16 UTC</createdTime>
+<ownerDesignName>erp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_SURNAME" id="D0EDB75E-660D-A3BF-D73E-3219F7E497EB">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>STUDENT_SURNAME</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-21 03:34:16 UTC</createdTime>
+<ownerDesignName>erp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

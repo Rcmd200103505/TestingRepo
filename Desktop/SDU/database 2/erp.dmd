@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erp" id="3EF5A3EF-093A-E047-E6BB-F54D9AEF30DF" version="3.5">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-21 03:26:47 UTC</createdTime>
+<ownerDesignName>erp</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3EF5A3EF-093A-E047-E6BB-F54D9AEF30DF</designId>
+</OSDM_Design>
