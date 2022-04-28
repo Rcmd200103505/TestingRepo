@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02E1DEAD-79BD-051A-617B-994A0FB81B4E" schemaObject="E85DBB21-D2BB-BC9F-9BD3-6399899DDE31" name="JOBBS">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>JOBBS</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENT_ID" id="37E65A08-C24F-68DD-E1A2-D8C4C4F51C57">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>JOBBS</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AF78156-D9B8-A0E6-6CB4-D5A0149BB0AE" referredColumn="B262247C-EC90-7FBA-0401-36947CB9085E"/>
+</associations>
+</Column>
+<Column name="JOB_ID" id="BB18D200-68A6-1AF5-0CD4-A43AD4DA0E54">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>JOBBS</sourceObjSchema>
+<sourceObjName>JOB_ID</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_TITLE" id="81DC6C7F-9AAE-5563-7A84-9DF950D0A65B">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>JOBBS</sourceObjSchema>
+<sourceObjName>JOB_TITLE</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN_SALARY" id="51ED600F-046E-C1CB-ECB7-48A772E5E054">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>JOBBS</sourceObjSchema>
+<sourceObjName>MIN_SALARY</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_SALARY" id="B604A027-FB4D-70FC-E743-91B5399A23A7">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>JOBBS</sourceObjSchema>
+<sourceObjName>MAX_SALARY</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="066140AC-3F24-D838-EBDD-08321F55B641" name="PK_JOB">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_JOB</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB18D200-68A6-1AF5-0CD4-A43AD4DA0E54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F7554A1-242C-B08A-7648-CC8838ADAB32" schemaObject="E85DBB21-D2BB-BC9F-9BD3-6399899DDE31" name="PK_JOB">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_JOB</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB18D200-68A6-1AF5-0CD4-A43AD4DA0E54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8FFD669-8557-12DE-3CDE-721BD7954A9F" name="DEPART_PK">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:04 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E65A08-C24F-68DD-E1A2-D8C4C4F51C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

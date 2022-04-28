@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMP" directorySegmentName="seg_0" id="488BD805-615B-B909-DC2A-9E61F84C4F0F">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<schemaObject>E85DBB21-D2BB-BC9F-9BD3-6399899DDE31</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0CD10F4C-2FA1-8F35-33A9-3476E9499726</segment>
+<tableSpace>47C6F466-D3DC-93DF-689A-51E33E0E7D48</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="089A8E6C-20D6-AAAD-A849-71A71C350C85">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATEOFEMPLOYMENT" id="16A0E789-D46A-3E2D-3447-1C2D8D24740B">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="25EA08C4-B0D3-D6EF-2C30-25748D154953">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="4EEB08CD-1BA4-05BF-9D4F-3E2A6AA2F5A6">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="64317FA1-BB8E-F47E-4958-FD51CA6E60D7">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AGE" id="657DE116-1973-E262-F00B-75C7611DB8DD">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="77341B9F-0189-203F-5869-98DE3C980D32">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="9CFF2F38-BDB8-53F3-CFAE-BB2B70E9CE28">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADUATED" id="FAA0B16C-07A8-94B6-1F79-EC6B38EDA390">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JOB_PK" id="A22679A1-3B7A-2C3A-AA7C-EECC91419CC6">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_PKv1" id="22834BE2-776A-28CE-AA1C-37A71604EAD4">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:14 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<schemaObject>E85DBB21-D2BB-BC9F-9BD3-6399899DDE31</schemaObject>
+<segment>28FB8EA8-0D7C-CE5F-C9DF-C71FA3E28DB7</segment>
+<tableSpace>47C6F466-D3DC-93DF-689A-51E33E0E7D48</tableSpace>
+<indexSegment>28FB8EA8-0D7C-CE5F-C9DF-C71FA3E28DB7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D7C7564-50E8-0AFD-4BA8-53177AE593D8" schemaObject="E85DBB21-D2BB-BC9F-9BD3-6399899DDE31" name="INFO">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>INFO</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:52:57 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5CF53315-5301-7138-3698-F2092E51D5C9">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>INFO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:52:57 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A34FEA81-30F0-2D83-8CE5-6966D1F24D53" referredColumn="089A8E6C-20D6-AAAD-A849-71A71C350C85"/>
+</associations>
+</Column>
+<Column name="HOMETOWN" id="A5C2FCBE-78D0-2001-E16B-5DC556E28A55">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>INFO</sourceObjSchema>
+<sourceObjName>HOMETOWN</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:52:57 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="F6246A72-480F-3BDC-C00C-686224EEBB26">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>INFO</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:52:57 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URN" id="257BBC14-F67F-F48F-9FFA-924931AC53B2">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>INFO</sourceObjSchema>
+<sourceObjName>URN</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:52:57 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="CD879858-93D3-D77F-CC6D-DCDC745EA138">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>INFO</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:52:57 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D72E00A7-EE33-A301-C28C-5D8EA6317255" name="EMP_PK">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:52:57 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CF53315-5301-7138-3698-F2092E51D5C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6F7529A-9C26-750A-62FD-D7D803AD72B7" schemaObject="E85DBB21-D2BB-BC9F-9BD3-6399899DDE31" name="DEPART">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>DEPART</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENT_ID" id="B262247C-EC90-7FBA-0401-36947CB9085E">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>DEPART</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_NAME" id="5D9F02F0-6D4D-C8FF-357A-9C98B050DD89">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>DEPART</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NAME</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B486426A-1F89-D765-2BA1-7CD90E0FBAF0" name="PK_DEPART">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_DEPART</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B262247C-EC90-7FBA-0401-36947CB9085E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F297358-85AD-5F70-2FFA-25831E3A6FCE" schemaObject="E85DBB21-D2BB-BC9F-9BD3-6399899DDE31" name="PK_DEPART">
+<sourceConnName>database</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_DEPART</sourceObjName>
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B262247C-EC90-7FBA-0401-36947CB9085E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

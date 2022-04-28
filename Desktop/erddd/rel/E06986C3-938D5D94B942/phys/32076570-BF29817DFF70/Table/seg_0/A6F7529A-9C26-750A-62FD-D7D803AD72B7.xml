@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPART" directorySegmentName="seg_0" id="A6F7529A-9C26-750A-62FD-D7D803AD72B7">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<schemaObject>E85DBB21-D2BB-BC9F-9BD3-6399899DDE31</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0CD10F4C-2FA1-8F35-33A9-3476E9499726</segment>
+<tableSpace>47C6F466-D3DC-93DF-689A-51E33E0E7D48</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPARTMENT_NAME" id="5D9F02F0-6D4D-C8FF-357A-9C98B050DD89">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="B262247C-EC90-7FBA-0401-36947CB9085E">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_DEPART" id="4F297358-85AD-5F70-2FFA-25831E3A6FCE">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<schemaObject>E85DBB21-D2BB-BC9F-9BD3-6399899DDE31</schemaObject>
+<segment>28FB8EA8-0D7C-CE5F-C9DF-C71FA3E28DB7</segment>
+<tableSpace>47C6F466-D3DC-93DF-689A-51E33E0E7D48</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DEPART" id="B486426A-1F89-D765-2BA1-7CD90E0FBAF0">
+<createdBy>Nazar Seitzhan</createdBy>
+<createdTime>2022-04-28 09:53:29 UTC</createdTime>
+<ownerDesignName>erddd</ownerDesignName>
+<segment>28FB8EA8-0D7C-CE5F-C9DF-C71FA3E28DB7</segment>
+<tableSpace>47C6F466-D3DC-93DF-689A-51E33E0E7D48</tableSpace>
+<existingIndex>4F297358-85AD-5F70-2FFA-25831E3A6FCE</existingIndex>
+<indexSegment>28FB8EA8-0D7C-CE5F-C9DF-C71FA3E28DB7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
